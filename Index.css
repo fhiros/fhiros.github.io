@@ -7,9 +7,18 @@ nav{
     color: black;
     margin: 20px;
 }
-li{
-   
-}
+@media (max-width:670px) {
+        #Portada{
+            height: 150px;
+            width: 300px;
+        }
+     }
+    @media (max-width:600px) {
+        .listanav{
+     display: block;
+        }
+     }
+
 h1{
     color: black;
     
