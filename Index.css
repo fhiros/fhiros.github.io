@@ -15,7 +15,7 @@ nav{
         }
        
      }
-    @media (max-width:600px) {
+    @media (max-width:650px) {
         .ListaNav {
             display: block;
             text-align: left;
