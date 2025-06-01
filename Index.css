@@ -1,62 +1,103 @@
-nav{
-  
+/* === Navegación principal === */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.ListaNav{
-    display: inline-block;
-    color: black;
-    margin: 20px;
+.ListaNav {
+  display: inline-block;
+  color: black;
+  margin: 20px;
 }
-@media (max-width:670px) {
-        #Portada{
-            height: 150px;
-            width: 327px;
-            text-align: center;
-        }
-       
-     }
-    @media (max-width:650px) {
-        .ListaNav {
-            display: block;
-            text-align: left;
-            margin: 10px 0;
-        }
-     }
 
-h1{
-    color: black;
-    
+@media (max-width: 650px) {
+  .ListaNav {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+  }
 }
-#titulo{
-    text-align: center;
-    border-radius: 2px;
-    border: 2px solid black;
-    background-color: rgb(219, 104, 104);
+
+/* === Encabezados === */
+h1, h2 {
+  color: black;
 }
-table{
-    text-align: center;
-    margin: 20px auto;
-    border: 10px solid brown;
-    border-collapse: collapse;
-   
-  
+
+/* Título principal */
+#titulo {
+  text-align: center;
+  border-radius: 2px;
+  border: 2px solid black;
+  background-color: rgb(219, 104, 104);
+  padding: 10px;
+  margin: 20px auto;
 }
-th{
-    background-color: orangered;
-    color:black;
-    padding: 10px;
+
+/* === Imagen principal responsive === */
+#Portada {
+  display: block;
+  margin: 0 auto;
 }
-td{
-    border: 2px dotted black;
-    background-color: yellow;
-    padding: 5px;
-    
+
+@media (max-width: 670px) {
+  #Portada {
+    height: 150px;
+    width: 327px;
+  }
 }
-#tabla{
-    text-align: center;
-    margin: 0 auto;
+
+/* === Sección Tabla === */
+table {
+  text-align: center;
+  margin: 20px auto;
+  border: 10px solid brown;
+  border-collapse: collapse;
 }
-#noticia1{
-    border-bottom: 5px solid brown;
-    border-top:5px solid brown ;
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th {
+  background-color: orangered;
+  color: black;
+  padding: 10px;
+}
+
+td {
+  border: 2px dotted black;
+  background-color: yellow;
+  padding: 5px;
+}
+
+#tabla {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* === Noticia destacada === */
+#noticia1 {
+  border-top: 5px solid brown;
+  border-bottom: 5px solid brown;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 3px solid brown;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 5px 0;
 }
